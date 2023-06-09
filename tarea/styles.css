@@ -1,0 +1,34 @@
+
+.gallery{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.figure :hover{
+    transform: scale(1.1);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    margin-left: 5.5rem;
+    display: flex;
+}
+.nav-bar2{
+    margin-right: 7rem;
+    display: flex;
+    justify-content: end;
+}
+li{
+    padding: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    color: brown;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
